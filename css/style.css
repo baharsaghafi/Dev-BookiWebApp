@@ -73,6 +73,14 @@ a:link {
     font-weight: bold;
     border: none;
   }
+
+  .topnav .label-container {
+    padding: 8px 10px;
+    margin-top: 15px;
+    background-color: #F2F2F2;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
   
   .topnav .search-container button {
     float: right;
@@ -81,8 +89,8 @@ a:link {
     margin-right: 16px;
     background: #0065FC;
     color: white;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     font-size: 15px;
     border: none;
     cursor: pointer;
