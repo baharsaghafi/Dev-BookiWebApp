@@ -119,3 +119,13 @@ a:link {
     }
   }
 
+  .filter {
+    display: flex;
+    padding: 30px 0;
+
+  }
+
+  .filter .label-filter {
+    
+  }
+
