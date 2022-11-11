@@ -114,14 +114,30 @@ nav a {
     color: black;
   }
   
-  /* FILTERS */
+/* FILTERS */
 
 .filter_container {
   display: flex;
   margin: 30px auto;
+}
+
+.filter_container h4 {
+  padding-right: 20px;
 }
   
 
 .filters * {
   display: inline-block;
 }
+
+
+ /* paragraph under filter */
+.parag {
+  display: flex;
+  margin: 0 25px;
+}
+
+.parag label {
+  padding-right: 10px;
+}
+
