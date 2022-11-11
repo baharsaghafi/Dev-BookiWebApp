@@ -142,3 +142,12 @@ nav a {
   color: #0065FC;
 }
 
+.big-conainer {
+  margin: 30px 20px;
+  background-color: #F2F2F2;
+}
+
+.big-conainer h3 {
+  padding: 20px;
+}
+
