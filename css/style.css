@@ -142,18 +142,32 @@ nav a {
   color: #0065FC;
 }
 
-.big-container {
-  max-width: 1000px;
-  margin: 30px;
+.center-container {
   background-color: #F2F2F2;
+  max-width: 1080px;
+  margin: 30px;
 }
 
-.col-4 {
-  flex-basis: 25%;
+.title {
+  margin: 30px;
+  position: relative;
+  line-height: 60px;
+}
+
+.small-container {
+  display: flex;
+  align-items: left;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col {
+  background-color: white;
+  border-radius: 15px;
+  flex-basis:30%;
   padding: 10px;
-  min-width: 200px;
+  min-width: 100px;
   margin-bottom: 50px;
-  transition: transform 0.5s;
   cursor: pointer;
 }
 
@@ -162,8 +176,4 @@ nav a {
   height: 110px;
 }
 
-.title {
-  margin-left: 30px;
-  position: relative;
-  padding: 30px 0;
-}
+
