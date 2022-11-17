@@ -143,20 +143,20 @@ nav a {
 }
 
 .center-container {
-  background-color: #F2F2F2;
-  max-width: 1080px;
-  margin: 30px;
+  margin: 10px;
+  flex-shrink: 1;
 }
 
 .title {
   margin: 30px;
-  position: relative;
   line-height: 60px;
 }
 
-.small-container {
+.big-container {
+  margin: 20px;
+  background-color: #F2F2F2;
+  max-width: 850px;
   display: flex;
-  align-items: left;
   flex-wrap: wrap;
   justify-content: space-around;
 }
@@ -164,16 +164,23 @@ nav a {
 .col {
   background-color: white;
   border-radius: 15px;
-  flex-basis:30%;
+  flex-basis:auto;
   padding: 10px;
-  min-width: 100px;
-  margin-bottom: 50px;
+  margin: 50px 0;
   cursor: pointer;
 }
 
-.col-4 img {
+.col img {
   width: 200px;
-  height: 110px;
+  height: 100px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
+.star {
+  color: #0065FC;
+}
 
+.empty-star{
+  color: gray;
+}
