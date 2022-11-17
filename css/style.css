@@ -155,7 +155,7 @@ nav a {
 .big-container {
   margin: 20px;
   background-color: #F2F2F2;
-  max-width: 850px;
+  max-width: 900px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -163,18 +163,19 @@ nav a {
 
 .col {
   background-color: white;
-  border-radius: 15px;
+  border-radius: 30px;
   flex-basis:auto;
   padding: 10px;
-  margin: 50px 0;
+  margin: 50px 10px;
   cursor: pointer;
+  box-shadow: 5px 5px 5px rgb(211, 210, 210);
 }
 
 .col img {
-  width: 200px;
-  height: 100px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  width: 250px;
+  height: 150px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .star {
@@ -182,5 +183,5 @@ nav a {
 }
 
 .empty-star{
-  color: gray;
+  color: rgb(201, 201, 201);
 }
