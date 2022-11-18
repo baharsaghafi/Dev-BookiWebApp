@@ -142,7 +142,7 @@ nav a {
   color: #0065FC;
 }
 
-/* center-left container */
+/* center container */
 .center-container {
   margin: 10px;
 }
@@ -184,4 +184,23 @@ nav a {
 
 .empty-star{
   color: rgb(201, 201, 201);
+}
+
+.right-container {
+  margin: 20px;
+  background-color: #F2F2F2;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.col-2 {
+  
+
+}
+
+.col-2 img {
+
 }
