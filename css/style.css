@@ -156,9 +156,9 @@ nav a {
 
 .left-container {
   margin: 20px;
-  padding: 5px 10px;
   background-color: #F2F2F2;
-  max-width: 900px;
+  max-width: 1050px;
+  max-height: 700px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -166,24 +166,31 @@ nav a {
 }
 
 .col {
+  height: 250px;
+  padding: 10px;
   background-color: white;
   border-radius: 30px;
   flex-basis:auto;
-  padding: 10px;
-  margin: 50px 10px;
+  margin: 20px 10px;
   cursor: pointer;
   box-shadow: 5px 5px 5px rgb(211, 210, 210);
 }
 
 .col img {
-  width: 250px;
+  width: 270px;
   height: 150px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
 
+.col-info {
+  padding: 10px 0 5px 10px;
+}
+
 .star {
   color: #0065FC;
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
 
 .empty-star{
@@ -198,6 +205,7 @@ nav a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  padding-bottom: 10px;;
 
 }
 
@@ -206,7 +214,8 @@ nav a {
   width: 350px;
   height: 150px;
   border-radius: 30px;
-  flex-basis:auto;
+  display: flex;
+  flex-flow: row;
   padding: 10px;
   margin: 60px 20px;
   cursor: pointer;
@@ -222,8 +231,14 @@ nav a {
   padding-bottom: 10px;
 }
 
-.col-info {
+.col2-info {
   display: flex;
   flex-direction: column;
   
 }
+
+.star2{
+  color: #0065FC;
+
+}
+
