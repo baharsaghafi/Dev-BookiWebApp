@@ -145,9 +145,6 @@ nav a {
 /* center-left container */
 .center-container {
   margin: 10px;
-  display: flex;
-  flex-wrap: wrap-reverse;
-  flex-shrink: 1;
 }
 
 .title {
