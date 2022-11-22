@@ -150,6 +150,10 @@ nav a {
   padding: 10px;
 }
 
+.filtres:hover{
+  color: #0065fc;
+}
+
 
 .iconFiltres{
   background-color: #DEEBFF;
