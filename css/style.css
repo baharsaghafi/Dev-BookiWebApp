@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+  
 
 body {
     font-family: 'Raleway', sans-serif;
@@ -58,7 +59,7 @@ nav a {
 
 
 .container {
-    margin: auto;
+    margin: 30px;
     padding: 0 25px;
 }
 
@@ -82,7 +83,7 @@ nav a {
 .topnav {
     overflow: hidden;
     display: flex;
-    margin: 10px;
+    margin-top: 10px;;
   }
   
   .topnav input[type=text] {
@@ -169,7 +170,7 @@ nav a {
 }
 
 
-h4 {
+.sectionFiltres h4 {
   line-height: 5;
   font-weight: bold;
   margin-right: 15px;
@@ -189,8 +190,18 @@ h4 {
 
 
 /* Accomodation section */
-.backgroundGrid{
+.backgroundGrid {
   background-color: #f2f2f2;
+  border-radius: 20px;
+}
+
+.marginSides {
+  margin: 0 50px;
+}
+
+
+.backgroundBlank{
+  background-color: white;
   border-radius: 20px;
 }
 
@@ -207,8 +218,8 @@ h4 {
   margin-right: 20px;
 }
 
-.accomodationSubject h2 {
-  padding: 10px 0 0 4%;
+h2.accomodationSubject { 
+  padding: 30px;
 }
 
 .captionOfAcc p{
@@ -236,7 +247,7 @@ h4 {
     transition: 0.3s;
 }
 
-.frameworkAcc{
+.frameworkAcc {
   margin: 5px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -244,7 +255,7 @@ h4 {
 }
 
 
-.contentAcc > figure{
+.contentAcc > figure {
   display: contents;
 }
 
@@ -255,9 +266,9 @@ h4 {
 
 
 .imageAcc {
-width: 100%;
+  width: 100%;
   height: 100px;
-object-fit: cover;
+  object-fit: cover;
 }
 
 
@@ -268,15 +279,16 @@ object-fit: cover;
 }
 
 
-.captionOfAcc p{
+p.captionOfAcc {
   margin: 0;
   font-size: 15px;
 }
 
 
-.captionOfAcc ul{
+.captionOfAcc ul {
   display: flex;
-  padding: 0;
+  list-style: none;
+  padding: 5px;
   margin: 0;
 }
 
