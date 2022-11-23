@@ -188,5 +188,105 @@ h4 {
 }
 
 
-/* center container */
+/* Accomodation section */
+.backgroundGrid{
+  background-color: #f2f2f2;
+  border-radius: 20px;
+}
+
+
+.mainPopularAcc{
+  display: flex;
+  flex-direction: row;
+}
+
+
+#accomodations{
+  margin-top: 20px;
+  width: 70%;
+  margin-right: 20px;
+}
+
+.accomodationSubject h2 {
+  padding: 10px 0 0 4%;
+}
+
+.captionOfAcc p{
+  padding: 20px 0 0 4%;
+  font-weight: 800;
+}
+
+.mainContentOfAcc {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.contentAcc {
+	margin: 10px 10px;
+	width: 28%;
+	box-shadow: 5px 5px 5px #d1d1d1;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.contentAcc:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.frameworkAcc{
+  margin: 5px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  overflow: hidden;
+}
+
+
+.contentAcc > figure{
+  display: contents;
+}
+
+
+.contentAcc > a{
+  padding: 5px;
+}
+
+
+.imageAcc {
+width: 100%;
+  height: 100px;
+object-fit: cover;
+}
+
+
+.captionOfAcc {
+  padding: 5px 15px;
+  line-height: 1.5;
+  color: black;
+}
+
+
+.captionOfAcc p{
+  margin: 0;
+  font-size: 15px;
+}
+
+
+.captionOfAcc ul{
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
 
