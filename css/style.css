@@ -338,7 +338,6 @@ p.captionOfAcc {
   font-weight: 500;
 }
 
-
 .contentPopular {
   margin: 20px;
   height: 150px;
@@ -406,6 +405,23 @@ p.captionOfAcc {
   padding: 0;
   color: #0065FC;
 }
+
+/* ACTIVITES  */
+
+#activites{
+  padding-top: 30px;
+}
+
+
+.mainContentActivites{
+  display: flex;
+}
+
+
+
+
+
+
 
 
 
