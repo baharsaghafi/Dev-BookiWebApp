@@ -152,13 +152,13 @@ nav a:hover::before {
 
   
 /* FILTERS */
-.sectionFiltres{
+.sectionFiltres {
   display: flex;
   margin-top: 20px;
 }
 
 
-.sectionFiltres > div{
+.sectionFiltres div {
   display: flex;
 }
 
@@ -176,16 +176,16 @@ nav a:hover::before {
 }
 
 
-.filtres p{
+.filtres p {
   padding: 10px;
 }
 
-.filtres:hover{
+.filtres:hover {
   color: #0065fc;
 }
 
 
-.iconFiltres{
+.iconFiltres {
   background-color: #DEEBFF;
   width: 40px;
   height: 40px;
@@ -219,7 +219,6 @@ nav a:hover::before {
 
 
 /* Accomodations */
-
 .mainPopularAcc{
   display: flex;
   flex-direction: row;
@@ -314,11 +313,17 @@ p.captionOfAcc {
   margin: 0;
 }
 
+.more {
+  margin: 40px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
 
 /* POPULAR */
 #popular {
   margin-top: 20px;
-  width: 30%;
+  width: 450px;
 }
 
 .popularTitle {
