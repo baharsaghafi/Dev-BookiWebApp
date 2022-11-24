@@ -9,6 +9,7 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+/* NAVBAR  */
 .navbar {
     display: flex;
     align-items: center;
@@ -78,8 +79,8 @@ nav a {
   font-weight: 300;
 }
 
-  /* searchBar */
 
+  /* searchBar */
 .topnav {
     overflow: hidden;
     display: flex;
@@ -120,9 +121,9 @@ nav a {
     background: #DEEBFF;
     color: black;
   }
+
   
 /* FILTERS */
-
 .sectionFiltres{
   display: flex;
   margin-top: 20px;
@@ -218,7 +219,7 @@ nav a {
   margin-right: 20px;
 }
 
-h2.accomodationSubject { 
+h2.accomodationTitle { 
   padding: 30px;
 }
 
@@ -291,6 +292,22 @@ p.captionOfAcc {
   padding: 5px;
   margin: 0;
 }
+
+
+/* POPULAR */
+#popular {
+  margin-top: 20px;
+  width: 30%;
+}
+
+.popularTitle {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 0 6%;
+}
+
+
+
 
 
 
