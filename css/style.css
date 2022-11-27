@@ -454,6 +454,22 @@ p.captionOfAcc {
   margin-right: 20px;
 }
 
+.contentSmall1{
+  height: 60%;
+}
+
+
+.contentSmall2{
+  height: 30%;
+}
+
+
+.contentSmall3,
+.contentSmall4{
+  height: 45%;
+}
+
+
 
 
 
