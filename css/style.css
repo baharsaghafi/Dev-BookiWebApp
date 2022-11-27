@@ -232,7 +232,7 @@ nav a:hover::before {
 }
 
 h2.accomodationTitle { 
-  padding: 30px;
+  padding: 10px 30px;
 }
 
 .captionOfAcc {
@@ -329,7 +329,11 @@ p.captionOfAcc {
 .popularTitle {
   display: flex;
   justify-content: space-between;
-  padding: 40px 40px 15px 40px;
+  padding: 10px 40px 10px 40px;
+}
+
+.popularTitle i {
+  padding-top: 30px;
 }
 
 .mainContentPopular {
@@ -438,6 +442,7 @@ h2 {
   box-shadow: 0px 0px 20px lightgrey;
   border-radius: 20px;
   overflow: hidden;
+  margin: 20px 0;
 }
 
 
@@ -471,28 +476,29 @@ h2 {
 .contentSmall3,
 .contentSmall4 {
   height: 45%;
+  margin: 20px 0;
 }
 
 .blockFigureLarge {
   margin: 0;
-  height: 89%;
+  height: 93%;
 }
 
 
 .blockFigureSmall1 {
-  height: 80%;
+  height: 88%;
 }
 
 
 .blockFigureSmall2 {
   margin: 0;
-  height: 63%;
+  height: 80%;
 }
 
 
 .blockFigureSmall3,
 .blockFigureSmall4 {
-  height: 75%;
+  height: 83%;
 }
 
 .imgActivity {
