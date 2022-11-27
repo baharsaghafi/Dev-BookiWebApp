@@ -469,6 +469,28 @@ p.captionOfAcc {
   height: 45%;
 }
 
+.blockFigureLarge{
+  margin: 0;
+  height: 89%;
+}
+
+
+.blockFigureSmall1{
+  height: 80%;
+}
+
+
+.blockFigureSmall2{
+  margin: 0;
+  height: 63%;
+}
+
+
+.blockFigureSmall3,
+.blockFigureSmall4{
+  height: 75%;
+}
+
 
 
 
