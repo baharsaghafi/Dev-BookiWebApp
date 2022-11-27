@@ -419,9 +419,9 @@ p.captionOfAcc {
 
 .secondActivityBlock,
 .fourthActivityBlock {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 
@@ -431,9 +431,9 @@ p.captionOfAcc {
 .contentSmall2,
 .contentSmall3,
 .contentSmall4 {
-    box-shadow: 0px 0px 20px lightgrey;
-    border-radius: 20px;
-    overflow: hidden;
+  box-shadow: 0px 0px 20px lightgrey;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 
@@ -443,16 +443,17 @@ p.captionOfAcc {
 .contentSmall2:hover,
 .contentSmall3:hover,
 .contentSmall4:hover {
-transform: scale(1.05);
-transition: 0.3s;
+  transform: scale(1.05);
+  transition: 0.3s;
 }
 
 
 .firstActivityBlock,
 .secondActivityBlock,
 .thirdActivityBlock {
-    margin-right: 20px;
+  margin-right: 20px;
 }
+
 
 
 
