@@ -41,8 +41,8 @@ li {
 
 
 .header {
-  margin: 10px 30px 20px 30px;
-  padding: 0px 20px;
+  margin: 10px 10px 20px 20px;
+  padding: 5px 20px;
 }
 
 
@@ -50,7 +50,7 @@ li {
 .navbar {
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: 15px 0px;
 }
 
 
@@ -209,13 +209,14 @@ nav a:hover::before {
  /* paragraph under filter */
 .parag {
   display: flex;
-  margin: 20px 0px;
+  margin: 10px 0px;
 }
 
 .parag label {
   padding-right: 10px;
   color: #0065FC;
 }
+
 
 
 /* Accomodations */
