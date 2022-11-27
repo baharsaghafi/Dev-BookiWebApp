@@ -526,6 +526,20 @@ footer {
   padding: 20px;
 }
 
+.about, .ourAcc {
+  flex-grow: 1;
+}
+
+.assistance {
+  flex-grow: 2;
+}
+
+
+
+
+
+
+
 
 
 
