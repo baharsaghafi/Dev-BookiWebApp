@@ -10,7 +10,7 @@ body {
 }
 
 .marginSides{
-  margin: 0 20px;
+  margin: 0 10px;
 }
 
 
@@ -30,6 +30,7 @@ li {
 .backgroundGrid {
   background-color: #F2F2F2;
   border-radius: 20px;
+  margin: 20px;
 }
 
 
@@ -418,12 +419,13 @@ p.captionOfAcc {
 }
 
 h2 {
-  margin: 30px 0;
+  margin: 20px 20px;
   font-size: 23px;
 }
 
 .mainContentActivity {
   display: flex;
+  margin: 20px;
 }
 
 .secondActivityBlock,
@@ -518,7 +520,7 @@ h2 {
 }
 
 
-/* POPULAR */
+/* FOOTER */
 footer {
   display: flex;
   background-color: #F2F2F2;
@@ -549,7 +551,7 @@ footer ul {
 }
 
 
-
+/* --------------- MOBILE VERSION RESPONSIVE --------------*/
 
 
 
