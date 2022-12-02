@@ -13,11 +13,10 @@
     <title>Booki</title>
 </head>
 <body>
-  <main>
     <!-- HEADER = logo - serachBar - menuBar - filter --->
     <header class="header">
       <div class="navbar">
-        <div>
+        <div class="logo">
           <img src="assest/images/logo/Booki.png" width="100px" alt="LOGO">
         </div>
         <nav>
@@ -27,7 +26,25 @@
           </ul>
         </nav>
       </div>
-      <div class class="row">
+    </header>  
+    <!-- Mobile Version -->
+    <header id="headerMob">
+      <div class="headerMobile">
+        <img
+          id="logoMob"
+          src="assest/images/logo/Booki.png"
+          alt="logo"
+        />
+      </div>
+      <div class="navMobile">
+        <ul>
+          <li><a href="#">Accomodations<li>
+          <li><a href="#">Activites<a><li>
+        </ul>
+      </div>
+    </header>      
+    <main>
+      <div class="row marginSides">
         <div>
           <h3>Find a place for your dream vacation</h3> 
           <p>Downtown or in nature</p>  
@@ -40,12 +57,14 @@
         <div class="search-container">
           <form>
            <input type="text" placeholder=" Marseille, France">
-           <button type="submit" >Search</button>
+           <button class="searchButton" type="submit" >Search</button>
+           <button class="searchButtonMob" type="button">
+            <i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
           </form>
         </div>
       </div>
       <!----- Filters section ----->
-      <section class="sectionFiltres">
+      <section class="sectionFiltres marginSides">
         <h4>Filtres</h4>
         <div>
           <div class="filtres">
@@ -68,7 +87,7 @@
           </div>
         </div>
       </section>  
-      <div class="parag">
+      <div class="parag marginSides">
         <label><i class="fa fa-circle-info"></i></label>
         <p>More than 500 accomodations are available in this city</p>
       </div>
@@ -478,6 +497,7 @@
       </div>
     </div>
     </section>
+  </main>
 
     <!-- FOOTER -->
     <footer>
@@ -504,6 +524,5 @@
       </ul>
     </div>
     </footer>
-  </main>
 </body>
 </html>

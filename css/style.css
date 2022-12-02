@@ -46,6 +46,15 @@ li {
   padding: 5px 20px;
 }
 
+#headerMob {
+  display: none;
+}
+
+main .topnav, .sectionFiltres { 
+  margin: 10px 30px;
+
+}
+
 
 /* NAVBAR  */
 .navbar {
@@ -151,6 +160,10 @@ nav a:hover::before {
   color: black;
 }
 
+.topnav .searchButtonMob {
+  display: none;
+}
+
   
 /* FILTERS */
 .sectionFiltres {
@@ -210,7 +223,7 @@ nav a:hover::before {
  /* paragraph under filter */
 .parag {
   display: flex;
-  margin: 10px 0px;
+  margin: 10px 30px;
 }
 
 .parag label {
@@ -553,33 +566,256 @@ footer ul {
 
 /* --------------- MOBILE VERSION RESPONSIVE --------------*/
 
+@media only screen and (max-width: 767px) {
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+  
+
+.topnav {
+    font-size: 20px;
+}
 
 
+.searchButton {
+    display: none;
+}
 
 
+.searchButtonMob {
+    display: block;
+    padding: 0 10px;
+    font-size: 1rem;
+    color: #fff;
+    border: 0;
+    border-radius: 15px;
+    background-color: #0065FC;
+    cursor: pointer;
+    margin-left: -10px;
+}
+
+.row {
+  margin: 5px;
+}
+
+.header {
+  display: none;
+}
+
+#headerMob {
+  display: contents;
+}
+
+.headerMobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 10px;
+}
+
+#logoMob {
+  width: 100px;
+  padding-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headerMobile a {
+  color: #0065FC;
+}
+
+.navMobile{
+  margin: 30px 0;
+}
+
+.navMobile > ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+.navMobile > ul > li {
+  flex-grow: 1;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #f2f2f2;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navMobile > ul > li:hover {
+  border-bottom: #0065FC solid 2px;
+}
+.navMobile > ul > li a:hover {
+  color: #0065FC;
+}
+
+.sectionFiltres {
+    display: flex;
+    flex-direction: column;
+}
+
+.topnav,
+.sectionFiltres,
+.parag {
+    margin: 10px;
+}
+.sectionFiltres > h3 {
+    line-height: 1;
+}
+.sectionFiltres > div {
+    display: flex;
+    flex-wrap: wrap;
+}
+.filtres {
+    padding: 0 5px 0 15px;
+    width: fit-content;
+    margin: 5px 15px 5px 0;
+}
+
+.parag {
+  margin: 20px 10px;
+}
+.parag p {
+  padding-top: 1em;
+}
+
+.parag label {
+  padding: 10px;
+}
+
+.mainPopularAcc{
+  display: flex;
+  flex-direction: column;
+}
 
 
+#accomodations,
+#popular {
+  width: 100%;
+}
+
+#accomodations {
+  margin: 0;
+  background-color: white;
+  
+}
+
+.mainContentOfAcc {
+  width: 700px;
+  height: 300px;
+  }
+
+.frameworkAcc {
+  flex: 100%;
+  max-width: 100%;
+}  
 
 
+#popular {
+  padding-bottom: 20px;
+  margin-top: 0;
+}
 
 
+#popular.backgroundGrid {
+  margin: 0;
+  width: 410px;
+  border-radius: 0;
+  padding: 20px 0 30px 0;
+}
+
+#activites > h2 {
+  font-size: 20px;
+  margin: 35px 0;
+  padding: 0 1.5em;
+}
+
+.contentPopular {
+  width: 90%;
+  box-shadow: 0 5px 5px #d1d1d1;
+}
+
+.frameworkAcc {
+  margin: 0;
+  width: 300px;
+  height: 100px;
+}
+
+h2.accomodationTitle {
+  padding: 0;
+}
+
+#activites{
+  padding-top: 0;
+}
+
+.blockFigureSmall1, .blockFigureSmall2, .blockFigureSmall3, .blockFigureSmall4 {
+  height: 150px;
+  width: 320px;
+}
+
+.blockFigureLarge {
+  width: 320px;
+  height: 150px;
+}
+
+.firstActivityBlock, .thirdActivityBlock {
+  width: 320px;
+  height: 200px;
+}
+
+.mainContentActivity{
+  display: block;
+  padding: 0 1.5em;
+}
+
+.firstActivityBlock, .secondActivityBlock, .thirdActivityBlock {
+  margin: 20px 0;
+}
+
+.secondActivityBlock, .fourthActivityBlock {
+  height: 500px;
+  width: 320px;
+}
+
+.firstActivityBlock, .thirdActivityBlock, .contentSmall1, .contentSmall2, .contentSmall3, .contentSmall4 {
+  margin-bottom: 25px;
+}
+
+.contentSmall2 {
+  height: 320px;
+}
+
+footer {
+  display: block;
+  margin-top: 25px;
+  width: 600px;
+  height: 420px;
+}
+.about,
+.ourAcc{
+  margin-right: 0;
+  padding-bottom: 20px;
+}
+.about h3,
+.ourAcc h3,
+.assistance h3{
+  margin-bottom: 0;
+}
+
+p.parag{
+  margin: 10px 0 0 0.8em;
+}
+
+footer h3,
+footer > div > ul{
+  padding-left: 10px;
+    margin: 0;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
