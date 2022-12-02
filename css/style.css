@@ -118,51 +118,47 @@ nav a:hover::before {
 }
 
 
-/* searchBar */
-.topnav {
-  overflow: hidden;
-  display: flex;
-  margin-top: 10px;;
-}
-  
-.topnav input[type=text] {
-  padding: 10px;
-  margin-top: 15px;
-  font-size: 15px;
-  font-weight: bold;
-  border: none;
+/* ---------- Search Section -------- */
+
+#locationIconStyle {
+  padding: 15px;
+  background-color: #f2f2f2;
+  border-radius: 10px 0px 0px 10px;
 }
 
-.topnav .label-container {
-  padding: 8px 10px;
-  margin-top: 15px;
-  background-color: #F2F2F2;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+form .search-container {
+  margin: 20px 0px;
 }
-  
-.topnav .search-container button {
-  float: right;
-  padding: 10px 15px;
-  margin-top: 15px;
-  margin-right: 16px;
-  background: #0065FC;
-  color: white;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  font-size: 15px;
-  border: none;
-  cursor: pointer;
+
+form .search-container input [type="text"]{
+  border-style: solid;
+  border-color: #f2f2f2;
+  padding: 13px;
+  position: relative;
+  bottom: 1px;
+  font-weight: bold;
 }
-  
-.topnav .search-container button:hover {
-  background: #DEEBFF;
+
+form .search-container ::placeholder{
   color: black;
 }
 
-.topnav .searchButtonMob {
-  display: none;
+form .search-container button {
+  border-style: none;
+  border-radius: 0px 10px 10px 0px;
+  padding: 15px;
+  position: relative;
+  right: 5px;
+  bottom: 1px;
+  background-color: #0065fc;
+  color: white;
+  font-weight: bold;
 }
+
+form .search-container button:hover {
+  background-color: #deebff;
+}
+
 
   
 /* FILTERS */
@@ -578,6 +574,21 @@ body {
     font-size: 20px;
 }
 
+/*------------------- Search Styling----------------*/
+form .search-container {
+  padding: 0px 20px;
+}
+
+/*------------------- How to hide and show the icon----------------*/
+
+form .search-container button {
+  font-size: 0px;
+}
+
+form .search-container i {
+  font-size: initial;
+}
+
 
 .searchButton {
     display: none;
@@ -698,20 +709,10 @@ body {
 }
 
 #accomodations {
-  margin: 0;
+  margin-right: 0;
+  order: 2;
   background-color: white;
-  
 }
-
-.mainContentOfAcc {
-  width: 700px;
-  height: 300px;
-  }
-
-.frameworkAcc {
-  flex: 100%;
-  max-width: 100%;
-}  
 
 
 #popular {
@@ -721,8 +722,6 @@ body {
 
 
 #popular.backgroundGrid {
-  margin: 0;
-  width: 410px;
   border-radius: 0;
   padding: 20px 0 30px 0;
 }
@@ -738,11 +737,6 @@ body {
   box-shadow: 0 5px 5px #d1d1d1;
 }
 
-.frameworkAcc {
-  margin: 0;
-  width: 300px;
-  height: 100px;
-}
 
 h2.accomodationTitle {
   padding: 0;
@@ -816,6 +810,8 @@ footer > div > ul{
     margin: 0;
 }
 
-
 }
+
+
+
 
