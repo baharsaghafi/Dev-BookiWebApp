@@ -696,27 +696,6 @@ form > input{
   padding: 10px;
 }
 
-.rechercheTitle{
-  font-size: 20px;
-}
-.buttonRecherche{
-  display: none;
-}
-form > input{
-  width: 250px;
-}
-.buttonRechercheMob{
-  display: block;
-  padding: 0 20px;
-  font-size: 1rem;
-  color: #fff;
-  border: 0;
-  border-radius: 15px;
-  background-color: #0065FC;
-  cursor: pointer;
-  margin-left: -10px;
-}
-
 
 .mainPopularAcc{
   display: flex;
@@ -743,6 +722,8 @@ form > input{
 
 
 #popular.backgroundGrid {
+  width: 400px;
+  height: 800px;
   border-radius: 0;
   padding: 20px 0 30px 0;
 }
