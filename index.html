@@ -13,81 +13,84 @@
     <title>Booki</title>
 </head>
 <body>
-    <!-- HEADER = logo - serachBar - menuBar - filter --->
-    <header class="header">
-      <div class="navbar">
-        <div class="logo">
-          <img src="assest/images/logo/Booki.png" width="100px" alt="LOGO">
-        </div>
-        <nav>
-          <ul>
-            <li><a href="">Accomodations</a></li>
-            <li><a href="">Activities</a></li>
-          </ul>
-        </nav>
+  <!-- HEADER = logo - serachBar - menuBar - filter--->
+  <header class="header">
+    <div class="navbar">
+      <div class="logo">
+        <img src="assest/images/logo/Booki.png"width="100px" alt="LOGO">
       </div>
-    </header>  
-    <!-- Mobile Version -->
-    <header id="headerMob">
-      <div class="headerMobile">
-        <img
-          id="logoMob"
-          src="assest/images/logo/Booki.png"
-          alt="logo"
-        />
-      </div>
-      <div class="navMobile">
+      <nav>
         <ul>
-          <li><a href="#">Accomodations<li>
-          <li><a href="#">Activites<a><li>
+          <li><a href="">Accomodations</a></li>
+          <li><a href="">Activities</a></li>
         </ul>
-      </div>
-    </header>      
-    <main>
-      <div class="row marginSides">
-        <div>
-          <h3>Find a place for your dream vacation</h3> 
-          <p>Downtown or in nature</p>  
-        </div> 
-      </div>
-      <div class="topnav">
-        <form class="search-container">
-            <i class="fa-solid fa-location-dot" id="locationIconStyle"></i>
-            <input type="text" placeholder=" Marseille, France" name="Search">
-           <button type="submit">Search<i class="fa-sharp fa-solid fa-magnifying-glass hide"></i></button>
+      </nav>
+    </div>
+  </header>  
+  <!-- Mobile Version -->
+  <header id="headerMob">
+    <div class="headerMobile">
+      <img
+        id="logoMob"
+        src="assest/images/logo/Booki.png"
+        alt="logo"
+      />
+    </div>
+    <div class="navMobile">
+      <ul>
+        <li><a href="#">Accomodations<li>
+        <li><a href="#">Activites<a><li>
+      </ul>
+    </div>
+  </header>      
+  <main>
+    <!---- SEARCH ---->
+    <article class="search marginSides">
+      <h2 class="searchTitle">
+        Find a place for your dream vacation
+      </h2>
+      <p>Downtown or in nature</p>
+      <form class="searchBox">
+        <i id="iconSearch" class="fas fa-map-marker-alt fa-sm"></i>
+        <input type="search" placeholder="Marseille, France" />
+        <button class="buttonSearch" type="button">Search</button>
+        <button class="buttonSearchMob" type="button">
+          <i class="fas fa-search fa-sm"></i>
+        </button>
+      </form>
+    </article>
+
+    <!----- Filters section ----->
+    <section class="sectionFiltres marginSides">
+      <h4>Filtres</h4>
+      <div>
+        <div class="filtres">
+          <div class="iconFiltres">
+            <i class="fas fa-money-bill-wave-alt fa-sm"></i>
           </div>
-        </form>
-      </div>
-      <!----- Filters section ----->
-      <section class="sectionFiltres marginSides">
-        <h4>Filtres</h4>
-        <div>
-          <div class="filtres">
-            <div class="iconFiltres">
-              <i class="fas fa-money-bill-wave-alt fa-sm"></i>
-            </div>
-            <p>Low cost</p>
-          </div>
-          <div class="filtres">
-            <div class="iconFiltres"><i class="fas fa-child fa-sm"></i></div>
-            <p>Family-friendly</p>
-          </div>
-          <div class="filtres">
-            <div class="iconFiltres"><i class="fas fa-heart fa-sm"></i></div>
-            <p>Romantic</p>
-          </div>
-          <div class="filtres">
-            <div class="iconFiltres"><i class="fas fa-dog fa-sm"></i></div>
-            <p>Pets allowed</p>
-          </div>
+          <p>Low cost</p>
         </div>
-      </section>  
-      <div class="parag marginSides">
-        <label><i class="fa fa-circle-info"></i></label>
-        <p>More than 500 accomodations are available in this city</p>
+        <div class="filtres">
+          <div class="iconFiltres"><i class="fas fa-child fa-sm"></i></div>
+          <p>Family-friendly</p>
+        </div>
+        <div class="filtres">
+          <div class="iconFiltres"><i class="fas fa-heart fa-sm"></i></div>
+          <p>Romantic</p>
+        </div>
+        <div class="filtres">
+          <div class="iconFiltres"><i class="fas fa-dog fa-sm"></i></div>
+          <p>Pets allowed</p>
+        </div>
       </div>
-    </header> 
-    
+    </section> 
+
+    <!----- Paragraph Under The Filter Section -----> 
+    <div class="parag marginSides">
+      <label><i class="fa fa-circle-info"></i></label>
+      <p>More than 500 accomodations are available in this city</p>
+    </div>
+
     <!----- Accomodation and Popular ----->
     <div class="mainPopularAcc marginSides">
     <!---- Accomodation section ----->

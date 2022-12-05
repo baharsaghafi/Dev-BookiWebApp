@@ -118,47 +118,68 @@ nav a:hover::before {
 }
 
 
-/* ---------- Search Section -------- */
+/* Search Section */
 
-#locationIconStyle {
-  padding: 15px;
-  background-color: #f2f2f2;
-  border-radius: 10px 0px 0px 10px;
+.search form {
+  margin: 20px;
 }
 
-form .search-container {
-  margin: 20px 0px;
+.search p {
+  margin: 20px;
 }
 
-form .search-container input [type="text"]{
-  border-style: solid;
-  border-color: #f2f2f2;
-  padding: 13px;
-  position: relative;
-  bottom: 1px;
-  font-weight: bold;
+.searchBox{
+  display: flex;
+  margin-top: 25px;
+  height: 50px;
+}
+.searchTitle{
+  margin-bottom: 5px;
 }
 
-form .search-container ::placeholder{
-  color: black;
+#iconSearch{
+  background-color: #F2F2F2;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  border-top-left-radius: 15px 15px;
+  border-bottom-left-radius: 15px 15px;
 }
 
-form .search-container button {
-  border-style: none;
-  border-radius: 0px 10px 10px 0px;
-  padding: 15px;
-  position: relative;
-  right: 5px;
-  bottom: 1px;
-  background-color: #0065fc;
-  color: white;
-  font-weight: bold;
+
+form > input{
+  height: 50px;
+  margin-left: 0;
+  border: 0.5px solid #f2f2f2;
+  padding-left: 10px;
+  font-family: 'Raleway', sans-serif;
 }
 
-form .search-container button:hover {
-  background-color: #deebff;
+
+form > input::placeholder{
+  font-weight: 800;
+  font-size: 14px;
 }
 
+
+.buttonSearch{
+  padding: 0 20px;
+  font-size: 1rem;
+  color: #fff;
+  border: 0;
+  border-top-right-radius: 15px 15px;
+  border-bottom-right-radius: 15px 15px;
+  background-color: #0065FC;
+  cursor: pointer;
+}
+
+
+.buttonSearchMob{
+  display: none;
+}
 
   
 /* FILTERS */
@@ -569,43 +590,6 @@ body {
     margin: 0;
 }
   
-
-.topnav {
-    font-size: 20px;
-}
-
-/*------------------- Search Styling----------------*/
-form .search-container {
-  padding: 0px 20px;
-}
-
-/*------------------- How to hide and show the icon----------------*/
-
-form .search-container button {
-  font-size: 0px;
-}
-
-form .search-container i {
-  font-size: initial;
-}
-
-
-.searchButton {
-    display: none;
-}
-
-
-.searchButtonMob {
-    display: block;
-    padding: 0 10px;
-    font-size: 1rem;
-    color: #fff;
-    border: 0;
-    border-radius: 15px;
-    background-color: #0065FC;
-    cursor: pointer;
-    margin-left: -10px;
-}
 
 .row {
   margin: 5px;
