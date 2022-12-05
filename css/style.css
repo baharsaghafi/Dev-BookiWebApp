@@ -256,7 +256,6 @@ form > input::placeholder{
   flex-direction: row;
 }
 
-
 #accomodations{
   margin-top: 20px;
   width: 70%;
@@ -299,11 +298,9 @@ h2.accomodationTitle {
   overflow: hidden;
 }
 
-
 .contentAcc figure {
   display: contents;
 }
-
 
 .contentAcc a {
   padding: 5px;
@@ -317,13 +314,11 @@ h2.accomodationTitle {
   color:#d1d1d1
 }
 
-
 .imageAcc {
   width: 100%;
   height: 130px;
   object-fit: cover;
 }
-
 
 .captionOfAcc {
   padding: 5px 15px;
@@ -331,12 +326,10 @@ h2.accomodationTitle {
   color: black;
 }
 
-
 p.captionOfAcc {
   margin: 0;
   font-size: 15px;
 }
-
 
 .captionOfAcc ul {
   display: flex;
@@ -716,7 +709,7 @@ body {
   padding: 0 1.5em;
 }
 
-.contentPopular {
+.contentAcc {
   width: 90%;
   box-shadow: 0 5px 5px #d1d1d1;
 }
