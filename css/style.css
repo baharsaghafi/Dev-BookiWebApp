@@ -645,7 +645,29 @@ body {
     flex-direction: column;
 }
 
-.topnav,
+/* SEARCH */
+.searchTitle{
+  font-size: 20px;
+}
+.buttonSearch{
+  display: none;
+}
+form > input{
+  width: 250px;
+}
+.buttonSearchMob{
+  display: block;
+  padding: 0 20px;
+  font-size: 1rem;
+  color: #fff;
+  border: 0;
+  border-radius: 15px;
+  background-color: #0065FC;
+  cursor: pointer;
+  margin-left: -10px;
+}
+
+
 .sectionFiltres,
 .parag {
     margin: 10px;
@@ -673,6 +695,28 @@ body {
 .parag label {
   padding: 10px;
 }
+
+.rechercheTitle{
+  font-size: 20px;
+}
+.buttonRecherche{
+  display: none;
+}
+form > input{
+  width: 250px;
+}
+.buttonRechercheMob{
+  display: block;
+  padding: 0 20px;
+  font-size: 1rem;
+  color: #fff;
+  border: 0;
+  border-radius: 15px;
+  background-color: #0065FC;
+  cursor: pointer;
+  margin-left: -10px;
+}
+
 
 .mainPopularAcc{
   display: flex;
