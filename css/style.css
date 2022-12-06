@@ -576,7 +576,7 @@ footer ul {
       display: none;
   }
   #logo{
-      width: 100px;
+      width: 150px;
   }
   h2, h3{
       font-size: 15px;
@@ -588,6 +588,36 @@ footer ul {
   .mainContentPopular > p{
       font-size: 14px;
   }
+
+  .filtres{
+    padding: 0 15px;
+    margin: 15px 10px;
+    height: 30px;
+  }
+ .filtres p{
+     padding: 3px;
+     font-size: 13px;
+ }
+ 
+ 
+ .sectionFiltres h3{
+     line-height: 2;
+ }
+ .iconFiltres{
+     width: 30px;
+     height: 30px;
+ }
+ 
+ 
+ .navbar li a{
+     padding: 0 10px;
+     font-size: 20px;
+ }
+ 
+ .marginSides{
+     margin: 0 1.5em;
+ }
+
 }  
 
 
