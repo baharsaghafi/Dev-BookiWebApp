@@ -30,7 +30,6 @@ li {
 .backgroundGrid {
   background-color: #F2F2F2;
   border-radius: 20px;
-  margin: 20px;
 }
 
 
@@ -240,9 +239,10 @@ form > input::placeholder{
 
 
 /* Accomodations */
-.mainPopularAcc{
+.mainPopularAcc {
   display: flex;
   flex-direction: row;
+  margin: 20px;
 }
 
 #accomodations{
@@ -627,13 +627,16 @@ footer ul {
 
 #accomodations,
 #popular{
-  width: 100%;
+  width: 110%;
 }
 
 
 .mainContentPopular{
   flex-direction: row;
+  width: 100%;
+  height: 100%;
 }
+
 
 .popularTitle {
   padding: 10px 20px 0 10px;
@@ -641,7 +644,6 @@ footer ul {
 
 .contentPopular{
   margin: 10px 10px;
-  flex-grow: 1;
 }
 
 .contentPopular figure{
@@ -654,7 +656,6 @@ footer ul {
   margin: 5px;
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
-  width: 100px;
 }
 
 
@@ -663,12 +664,15 @@ footer ul {
   display: block;
 }
 
-.imgPopular {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-left-radius: 0;
+.captionPopular p {
+  padding: 10px 0;
 }
 
+.imgPopular {
+  width: 70px;
+  height: 140px;
+  border-radius: 20px;
+}
 
 .mainContentActivity, .thirdActivityBlock, .contentSmall2, .contentSmall4, .contentSmall1, .contentSmall3{
   padding-bottom: 10px;
@@ -690,6 +694,21 @@ footer ul {
   margin-right: 10px;
 }
 
+footer {
+    padding: 30px;
+    text-align: center;
+    width: 106%;
+
+}
+footer li{
+    font-size: 13px;
+}
+
+.about,
+.ourAcc{
+    margin-right: 0;
+}    
+
 
 }  
 
@@ -699,8 +718,9 @@ footer ul {
 @media only screen and (max-width: 768px) {
 
 body {
-    font-family: 'Raleway', sans-serif;
-    margin: 0;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+    
 }
   
 .header {
@@ -708,13 +728,12 @@ body {
 }
 
 #headerMob {
-  display:contents;
+  display: contents;
 }
 
 .headerMobile {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin: 20px 10px;
 }
 
@@ -730,7 +749,7 @@ body {
 }
 
 .navMobile{
-  margin: 30px 0;
+  margin: 30px 10px;
 }
 
 .navMobile > ul {
@@ -744,8 +763,8 @@ body {
 .navMobile > ul > li {
   flex-grow: 1;
   padding-bottom: 10px;
-  border-bottom: 2px solid #f2f2f2;
-  font-family: 'Raleway', sans-serif;
+  border-bottom: 3px solid #f2f2f2;
+
 }
 
 .navMobile > ul > li:hover {
@@ -830,7 +849,7 @@ form > input{
 }
 
 #accomodations {
-  margin-right: 0;
+  margin: 10px;
   order: 2;
   background-color: white;
 }
@@ -843,9 +862,7 @@ form > input{
 
 
 #popular.backgroundGrid {
-  width: 400px;
-  height: 800px;
-  border-radius: 0;
+  width: 120%;
   padding: 20px 0px 30px 0px;
 }
 
@@ -855,17 +872,20 @@ form > input{
   padding: 0 1.5em;
 }
 
+
 .contentAcc {
-  width: 90%;
+  width: 100%;
   box-shadow: 0 5px 5px #d1d1d1;
 }
 
 
 h2.accomodationTitle {
   padding: 0;
+  text-align: center;
+  font-size: 25px;
 }
 
-#activites{
+#activites {
   padding-top: 0;
 }
 
