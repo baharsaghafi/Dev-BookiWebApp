@@ -575,6 +575,12 @@ footer ul {
   #headerMob{
       display: none;
   }
+
+  .header nav li {
+    margin-right: 0;
+
+  }
+
   #logo{
       width: 150px;
   }
@@ -584,6 +590,7 @@ footer ul {
   .mainContentPopular > p{
       font-size: 15px;
   }
+
 
   .navbar li a{
     padding: 0 10px;
@@ -643,12 +650,17 @@ footer ul {
 }
 
 .contentPopular{
-  margin: 10px 10px;
+  margin: 10px 5px;
 }
 
 .contentPopular figure{
   flex-direction: column;
   padding: 0;
+}
+
+.contentPopular figure p{
+  padding-bottom: 15px;
+  padding-right: 12px;
 }
 
 
