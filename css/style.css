@@ -578,14 +578,11 @@ footer ul {
   #logo{
       width: 150px;
   }
-  h2, h3{
-      font-size: 15px;
-  }
-
+ 
   p,
   .mainContentOfAcc p,
   .mainContentPopular > p{
-      font-size: 14px;
+      font-size: 15px;
   }
 
   .navbar li a{
@@ -618,6 +615,10 @@ footer ul {
   margin: 10px 40px;
  }
 
+ .parag p {
+  font-size: 20px;
+ }
+
  .mainPopularAcc{
   display: flex;
   flex-direction: column;
@@ -635,7 +636,7 @@ footer ul {
 }
 
 .popularTitle {
-  padding: 10px 0 0 3%;
+  padding: 10px 20px 0 10px;
 }
 
 .contentPopular{
@@ -668,6 +669,26 @@ footer ul {
   border-bottom-left-radius: 0;
 }
 
+
+.mainContentActivity, .thirdActivityBlock, .contentSmall2, .contentSmall4, .contentSmall1, .contentSmall3{
+  padding-bottom: 10px;
+}
+
+
+#activites h2{
+  padding-left: 3%;
+}
+
+.textActivity {
+  display: flex;
+  padding-top: 10px;
+  margin: 0;
+}
+
+
+.firstActivityBlock, .secondActivityBlock, .thirdActivityBlock{
+  margin-right: 10px;
+}
 
 
 }  
@@ -768,17 +789,21 @@ form > input{
 .parag {
     margin: 10px;
 }
-.sectionFiltres > h3 {
+.sectionFiltres > h4 {
     line-height: 1;
+    margin: 15px;
+    font-size: 20px;
 }
 .sectionFiltres > div {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 10px;
 }
+
 .filtres {
     padding: 0 5px 0 15px;
     width: fit-content;
-    margin: 5px 15px 5px 0;
+    margin: 5px 30px 5px 0px;
 }
 
 .parag {
