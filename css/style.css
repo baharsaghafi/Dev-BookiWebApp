@@ -582,11 +582,15 @@ footer ul {
       font-size: 15px;
   }
 
-
   p,
   .mainContentOfAcc p,
   .mainContentPopular > p{
       font-size: 14px;
+  }
+
+  .navbar li a{
+    padding: 0 10px;
+    font-size: 20px;
   }
 
   .filtres{
@@ -594,29 +598,77 @@ footer ul {
     margin: 15px 10px;
     height: 30px;
   }
+
  .filtres p{
      padding: 3px;
      font-size: 13px;
  }
  
- 
- .sectionFiltres h3{
-     line-height: 2;
+ .sectionFiltres h4{
+     line-height: 4;
+     margin-left: 15px;
  }
  .iconFiltres{
      width: 30px;
      height: 30px;
  }
  
- 
- .navbar li a{
-     padding: 0 10px;
-     font-size: 20px;
+
+ .parag {
+  margin: 10px 40px;
  }
- 
- .marginSides{
-     margin: 0 1.5em;
+
+ .mainPopularAcc{
+  display: flex;
+  flex-direction: column;
+
  }
+
+#accomodations,
+#popular{
+  width: 100%;
+}
+
+
+.mainContentPopular{
+  flex-direction: row;
+}
+
+.popularTitle {
+  padding: 10px 0 0 3%;
+}
+
+.contentPopular{
+  margin: 10px 10px;
+  flex-grow: 1;
+}
+
+.contentPopular figure{
+  flex-direction: column;
+  padding: 0;
+}
+
+
+.frameworkPopular{
+  margin: 5px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100px;
+}
+
+
+.captionPopular{
+  width: 100px;
+  display: block;
+}
+
+.imgPopular {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0;
+}
+
+
 
 }  
 
