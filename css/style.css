@@ -102,7 +102,6 @@ nav a::before {
   position: absolute;
   bottom: 60px;
   width: 0%;
-  transition: all case-in-out 250ms;
 }
 
 nav a:hover::before {
