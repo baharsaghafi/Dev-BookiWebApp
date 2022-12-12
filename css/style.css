@@ -612,7 +612,7 @@ footer > div > ul {
 
 #accomodations,
 #popular{
-  width: 108%;
+  width: 105%;
 }
 
 
@@ -626,7 +626,6 @@ footer > div > ul {
 }
 
 
-
 .popularTitle {
   padding: 10px 20px 0 10px;
 }
@@ -636,9 +635,8 @@ footer > div > ul {
 }
 
 
-.contentPopular figure p{
-  padding-bottom: 15px;
-  padding-right: 15px;
+.contentPopular figure > p {
+  padding-bottom: 5px;
 }
 
 
@@ -650,12 +648,8 @@ footer > div > ul {
 
 
 .captionPopular{
-  width: 100px;
+  width: 100%;
   display: block;
-}
-
-.captionPopular p {
-  padding: 10px 0;
 }
 
 .imgPopular {
@@ -864,6 +858,7 @@ form > input{
   padding-bottom: 20px;
   margin-top: 0;
 }
+
 
 
 #popular.backgroundGrid {
