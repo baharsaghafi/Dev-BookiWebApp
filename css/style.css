@@ -737,9 +737,9 @@ body {
 }
 
 #logoMob {
-  width: 150px;
+  width: 170px;
   padding-top: 10px;
-  margin: 0 auto;
+  margin: 0 250px;
 }
 
 .headerMobile a {
@@ -747,6 +747,7 @@ body {
 }
 
 .navMobile{
+  font-size: 30px;
   margin: 30px 0px;
 }
 
@@ -755,7 +756,7 @@ body {
   justify-content: space-evenly;
   list-style: none;
   text-align: center;
-  padding: 0;
+  padding: 10px;
 }
 
 .navMobile > ul > li {
@@ -775,18 +776,25 @@ body {
 
 /* SEARCH */
 .searchTitle{
-  font-size: 20px;
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+.search p {
+  font-size: 25px;
 }
 .buttonSearch{
   display: none;
 }
+
 form > input{
-  width: 250px;
+  width: 300px;
 }
+
 .buttonSearchMob{
   display: block;
   padding: 0 20px;
-  font-size: 1rem;
+  font-size: 20px;
   color: #fff;
   border: 0;
   border-radius: 15px;
@@ -799,6 +807,7 @@ form > input{
 .sectionFiltres {
   display: flex;
   flex-direction: column;
+  width: 500px;
 }
 
 .sectionFiltres,
@@ -809,7 +818,7 @@ form > input{
 .sectionFiltres > h4 {
     line-height: 1;
     margin: 20px 30px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .sectionFiltres > div {
@@ -818,13 +827,19 @@ form > input{
     margin-left: 50px;
 }
 
+.sectionFiltres p {
+  font-size: 25px;
+}
+
+
 .filtres {
     padding: 0 5px 0 15px;
     margin: 5px 30px 5px 0px;
 }
 
 .parag {
-  margin: 20px 10px;
+  margin: 10px;
+  font-size: 25px;
 }
 
 .parag p {
@@ -832,7 +847,7 @@ form > input{
 }
 
 .parag label {
-  padding-top: 30px;
+  padding-top: 55px;
 }
 
 
@@ -841,7 +856,6 @@ form > input{
   flex-direction: column;
 
 }
-
 
 #accomodations,
 #popular {
