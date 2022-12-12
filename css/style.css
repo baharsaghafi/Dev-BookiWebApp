@@ -714,11 +714,13 @@ footer li{
 
 @media only screen and (max-width: 767px) {
 
+
 body {
   font-family: 'Raleway', sans-serif;
-  margin: 0;   
+  align-items: center;
+  width: 600px;
 }
-  
+
 #header {
   display: none;
 }
@@ -730,7 +732,7 @@ body {
 .headerMobile {
   display: flex;
   justify-content: space-between;
-  margin: 20px 10px;
+  margin: 20px;
 }
 
 #logoMob {
@@ -770,10 +772,6 @@ body {
   color: #0065FC;
 }
 
-.marginSides{
-  margin: 0;
-}
-
 /* SEARCH */
 .searchTitle{
   font-size: 20px;
@@ -809,36 +807,38 @@ form > input{
 
 .sectionFiltres > h4 {
     line-height: 1;
-    margin: 15px;
+    margin: 20px 30px;
     font-size: 20px;
 }
+
 .sectionFiltres > div {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 10px;
+    margin-left: 50px;
 }
 
 .filtres {
     padding: 0 5px 0 15px;
-    width: fit-content;
     margin: 5px 30px 5px 0px;
 }
 
 .parag {
   margin: 20px 10px;
 }
+
 .parag p {
   padding-top: 1em;
 }
 
 .parag label {
-  padding: 10px;
+  padding-top: 30px;
 }
 
 
 .mainPopularAcc{
   display: flex;
   flex-direction: column;
+
 }
 
 
@@ -846,6 +846,7 @@ form > input{
 #popular {
   width: 100%;
 }
+
 
 #accomodations {
   margin: 10px;
@@ -862,9 +863,18 @@ form > input{
 
 
 #popular.backgroundGrid {
-  width: 120%;
-  padding: 20px 0px 30px 0px;
+  width: 110%;
+  padding: 20px 0px 0px 0px;
 }
+
+.frameworkAcc {
+  height: 150px;
+}
+
+.frameworkAcc .imageAcc {
+  height: 100%;
+}
+
 
 #activites > h2 {
   font-size: 20px;
@@ -890,13 +900,12 @@ h2.accomodationTitle {
 }
 
 .blockFigureSmall1, .blockFigureSmall2, .blockFigureSmall3, .blockFigureSmall4 {
-  height: 150px;
-  width: 320px;
+  height: 190px;
+
 }
 
 .blockFigureLarge {
-  width: 320px;
-  height: 150px;
+  height: 200px;
 }
 
 .firstActivityBlock, .thirdActivityBlock {
@@ -905,17 +914,19 @@ h2.accomodationTitle {
 }
 
 .mainContentActivity{
-  display: block;
-  padding: 0 1.5em;
-}
+  display: flex;
+  flex-direction: column;
 
+}
 .firstActivityBlock, .secondActivityBlock, .thirdActivityBlock {
-  margin: 20px 0;
+  margin: 10px 0;
+  height: 250px;
+  width: 500px;
 }
 
 .secondActivityBlock, .fourthActivityBlock {
-  height: 500px;
-  width: 320px;
+  height: 550px;
+  width: 500px;
 }
 
 .firstActivityBlock, .thirdActivityBlock, .contentSmall1, .contentSmall2, .contentSmall3, .contentSmall4 {
@@ -923,7 +934,7 @@ h2.accomodationTitle {
 }
 
 .contentSmall2 {
-  height: 330px;
+  height: 300px;
 }
 
 footer {
@@ -949,8 +960,8 @@ p.parag{
 
 footer h3,
 footer > div > ul{
-  padding-left: 10px;
-  margin: 0;
+  padding-left: 20px;
+  margin: 0 20px;
 }
 
 }
