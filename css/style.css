@@ -216,6 +216,7 @@ form > input::placeholder{
 .mainPopularAcc {
   display: flex;
   flex-direction: row;
+  margin: 0;
 }
 
 #accomodations{
