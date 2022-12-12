@@ -1,18 +1,14 @@
 
-*{
-  margin: 0;
-  padding: 0;
-}
-  
+/* GLOBAL PARAMETRES  */
+
 
 body {
   font-family: 'Raleway', sans-serif;
 }
 
 .marginSides{
-  margin: 0 10px;
+  margin: 0 50px;
 }
-
 
 
 a {
@@ -39,81 +35,51 @@ li {
 }
 
 
-
-.header {
-  margin: 10px 10px 20px 20px;
-  padding: 5px 20px;
-}
-
-
 #headerMob {
   display: none;
 }
 
-.navbar .logo img {
-  width: 100px;
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-main .topnav, .sectionFiltres { 
-  margin: 10px 30px;
-
+#logo {
+  width: 150px;
+  padding-top: 30px;
 }
 
 
-/* NAVBAR  */
 .navbar {
   display: flex;
-  align-items: center;
-  padding: 15px 0px;
+  justify-content: flex-end;
 }
 
 
-nav {
-  flex: 1;
-  text-align: right;
+.navbar li {
+  padding: 50px 10px 0 0;
+  border-top: 1px solid white;
+
 }
 
-
-nav ul{
-  display: inline-block;
-  list-style-type:lower-roman;
-}
-
-nav ul li {
-  display: inline-block;
-  margin-right: 20px;
-  position: relative;
-}
-
-nav a {
-  text-decoration: none;
+.navbar li a{
+  padding: 10px 20px;
+  font-size: 16px;
   color: black;
 }
 
-   
-nav a:hover {
+.navbar li a:hover{
+  padding-top: 60px;
   color: #0065FC;
-}
-
-nav a::before {
-  content: '';
-  display: block;
-  height: 3px;
-  background-color:#0065FC;
-  position: absolute;
-  bottom: 60px;
-  width: 0%;
-}
-
-nav a:hover::before {
-    width: 100%;
+  border-top: #0065FC solid 2px;
 }
 
 
 /* Search Section */
 
 .search form {
-  margin: 20px;
+  margin: 10px;
 }
 
 .search p {
@@ -152,7 +118,6 @@ form > input{
   margin-left: 0;
   border: 0.5px solid #f2f2f2;
   padding-left: 10px;
-  font-family: 'Raleway', sans-serif;
 }
 
 
@@ -228,7 +193,7 @@ form > input::placeholder{
 
 
 .sectionFiltres h4 {
-  line-height: 5;
+  line-height: 3;
   font-weight: bold;
   margin-right: 15px;
 }
@@ -241,17 +206,16 @@ form > input::placeholder{
 }
 
 .parag label {
-  padding-right: 10px;
+  padding: 15px;
   color: #0065FC;
 }
 
 
-
 /* Accomodations */
+
 .mainPopularAcc {
   display: flex;
   flex-direction: row;
-  margin: 20px;
 }
 
 #accomodations{
@@ -261,8 +225,9 @@ form > input::placeholder{
 }
 
 h2.accomodationTitle { 
-  padding: 10px 30px;
+  padding: 10px 0 0 4%;
 }
+
 
 .captionOfAcc {
   padding: 20px 0 0 4%;
@@ -296,11 +261,11 @@ h2.accomodationTitle {
   overflow: hidden;
 }
 
-.contentAcc figure {
+.contentAcc > figure {
   display: contents;
 }
 
-.contentAcc a {
+.contentAcc > a {
   padding: 5px;
 }
 
@@ -314,7 +279,7 @@ h2.accomodationTitle {
 
 .imageAcc {
   width: 100%;
-  height: 130px;
+  height: 100px;
   object-fit: cover;
 }
 
@@ -324,15 +289,14 @@ h2.accomodationTitle {
   color: black;
 }
 
-p.captionOfAcc {
+.captionOfAcc p {
   margin: 0;
   font-size: 15px;
 }
 
 .captionOfAcc ul {
   display: flex;
-  list-style: none;
-  padding: 5px;
+  padding: 0;
   margin: 0;
 }
 
@@ -348,35 +312,35 @@ p.captionOfAcc {
 }
 
 
-
 /* POPULAR */
 #popular {
   margin-top: 20px;
-  width: 450px;
+  width: 30%;
 }
 
 .popularTitle {
   display: flex;
   justify-content: space-between;
-  padding: 10px 40px 10px 40px;
+  padding: 10px 0 0 3%;
 }
 
 .popularTitle i {
-  padding-top: 30px;
+  padding-top: 20px;
+  padding-right: 30px;
 }
 
 .mainContentPopular {
   display: flex;
   flex-direction: column;
-  font-weight: 500;
+  align-items: center;
 }
 
 .contentPopular {
-  margin: 20px;
-  height: 150px;
-  width: 370px;
+  margin: 15px;
   display: flex;
   box-shadow: 5px 5px 5px #d1d1d1;
+  width: 85%;
+  height: 150px;
 }
 
 
@@ -389,14 +353,11 @@ p.captionOfAcc {
 .contentPopular figure {
   margin: 0;
   display: flex;
-  text-align: left;
 }
-
 
 
 .contentPopular b {
   font-size: 17px;
-
 }
 
 
@@ -404,19 +365,15 @@ p.captionOfAcc {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   margin: 5px 10px 5px 5px;
-  width: 50%;
-  display: flex;
+  width: 40%;
+  overflow: hidden;
 }
 
 
 .imgPopular {
-  width: 95px;
+  width: 100%;
   height: 100%;
-  margin: 3px;
-  padding-bottom: 5px;
   object-fit: cover;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
 }
 
 .captionPopular {
@@ -424,20 +381,20 @@ p.captionOfAcc {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  width: 50%;
 }
 
-
-.captionPopular p {
+.captionPopular > p {
   font-size: 15px;
-  width: 200px;
 }
 
 
-.captionPopular ul {
+.captionPopular > ul {
   display: flex;
   padding: 0;
   color: #0065FC;
 }
+
 
 /* ACTIVITES  */
 
@@ -452,7 +409,6 @@ h2 {
 
 .mainContentActivity {
   display: flex;
-  margin: 20px;
 }
 
 .secondActivityBlock,
@@ -460,10 +416,20 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 600px;
-  width: 950px;
 }
 
+
+.firstActivityBlock,
+.thirdActivityBlock {
+  height: 500px;
+  width: 400px;
+}
+
+.secondActivityBlock,
+.fourthActivityBlock{
+  height: 500px;
+  width: 400px;
+}
 
 .firstActivityBlock,
 .thirdActivityBlock,
@@ -474,8 +440,6 @@ h2 {
   box-shadow: 0px 0px 20px lightgrey;
   border-radius: 20px;
   overflow: hidden;
-  margin: 20px 0;
-  height: 560px;
 }
 
 
@@ -493,7 +457,7 @@ h2 {
 .firstActivityBlock,
 .secondActivityBlock,
 .thirdActivityBlock {
-  margin-right: 30px;
+  margin-right: 40px;
 }
 
 .contentSmall1 {
@@ -502,7 +466,7 @@ h2 {
 
 
 .contentSmall2 {
-  height: 40%;
+  height: 30%;
 }
 
 
@@ -512,38 +476,36 @@ h2 {
 }
 
 .blockFigureLarge {
-  height: 93%;
+  height: 90%;
 }
 
 
 .blockFigureSmall1 {
-  height: 88%;
+  height: 80%;
 }
 
 
 .blockFigureSmall2 {
-  margin: 0;
-  height: 80%;
+  height: 65%;
 }
 
 
 .blockFigureSmall3,
 .blockFigureSmall4 {
-  height: 85%;
+  height: 70%;
 }
 
 .imgActivity {
   width: 100%;
-  height: 100%;
+  height: 95%;
   object-fit: cover;
 }
 
 
-.textActivity {
-  padding: 1em;
+.textActivity  {
+  padding-left: 20px;
   color: black;
   font-weight: bold;
-  margin-bottom: 10px;
 }
 
 
@@ -552,7 +514,7 @@ footer {
   display: flex;
   background-color: #F2F2F2;
   margin-top: 50px;
-  padding: 50px;
+  padding: 20px;
 }
 
 .about, .ourAcc {
@@ -564,7 +526,7 @@ footer {
 }
 
 footer h3 {
-  margin-bottom: 10px;
+padding-left: 40px;
 }
 
 
@@ -573,20 +535,22 @@ footer li {
 }
 
 
-footer ul {
+footer > div > ul {
   line-height: 2;
 }
 
 /* --------------- TABLET VERSION RESPONSIVE --------------*/
 
 
-@media only screen and (min-width: 768px) and (max-width: 1023px){
-
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+ 
   body{
       margin: 0;
       padding: 0;
       box-sizing: border-box;
   }
+
+
   #headerMob{
       display: none;
   }
@@ -648,13 +612,16 @@ footer ul {
 
 #accomodations,
 #popular{
-  width: 105%;
+  width: 108%;
 }
 
 
 .mainContentPopular{
+  display:flex;
   flex-direction: row;
-  width: 100%;
+  margin-left: 10px;
+  margin-bottom: 50px;
+  width: 97%;
   height: 100%;
 }
 
@@ -668,10 +635,6 @@ footer ul {
   margin: 10px 5px;
 }
 
-.contentPopular figure{
-  flex-direction: column;
-  padding: 0;
-}
 
 .contentPopular figure p{
   padding-bottom: 15px;
@@ -696,8 +659,8 @@ footer ul {
 }
 
 .imgPopular {
-  width: 65px;
-  height: 140px;
+  width: 60px;
+  height: 130px;
   margin: 5px 0px;
   border-radius: 20px;
 }
@@ -723,13 +686,21 @@ footer ul {
 
 
 .firstActivityBlock, .secondActivityBlock, .thirdActivityBlock{
-  margin-right: 10px;
+  margin-right: 20px;
 }
+
+.blockFigureLarge {
+  width: auto;
+  height: 90%;
+}
+
+
+
 
 footer {
     padding: 30px;
-    text-align: center;
-    width: 106%;
+    text-align: left;
+    width: 100%;
 
 }
 footer li{
@@ -738,24 +709,23 @@ footer li{
 
 .about,
 .ourAcc{
-    margin-right: 0;
+    margin-right: 50px;
 }    
 
 
 }  
 
 
-/* --------------- MOBILE VERSION RESPONSIVE --------------*/
+/* ------ MOBILE VERSION RESPONSIVE --------*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 
 body {
   font-family: 'Raleway', sans-serif;
-  margin: 0;
-    
+  margin: 0;   
 }
   
-.header {
+#header {
   display: none;
 }
 
@@ -770,10 +740,9 @@ body {
 }
 
 #logoMob {
-  width: 100px;
+  width: 150px;
   padding-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .headerMobile a {
@@ -781,7 +750,7 @@ body {
 }
 
 .navMobile{
-  margin: 30px 10px;
+  margin: 30px 0px;
 }
 
 .navMobile > ul {
@@ -807,6 +776,9 @@ body {
   color: #0065FC;
 }
 
+.marginSides{
+  margin: 0;
+}
 
 /* SEARCH */
 .searchTitle{
@@ -840,6 +812,7 @@ form > input{
 .parag {
     margin: 10px;
 }
+
 .sectionFiltres > h4 {
     line-height: 1;
     margin: 15px;
