@@ -850,22 +850,9 @@ form > input{
 
 
 #accomodations {
-  margin: 10px;
+  margin: 20px;
   order: 2;
   background-color: white;
-}
-
-
-#popular {
-  padding-bottom: 20px;
-  margin-top: 0;
-}
-
-
-
-#popular.backgroundGrid {
-  width: 110%;
-  padding: 20px 0px 0px 0px;
 }
 
 .frameworkAcc {
@@ -876,16 +863,8 @@ form > input{
   height: 100%;
 }
 
-
-#activites > h2 {
-  font-size: 20px;
-  margin: 35px 0;
-  padding: 0 1.5em;
-}
-
-
 .contentAcc {
-  width: 100%;
+  width: 500px;
   box-shadow: 0 5px 5px #d1d1d1;
 }
 
@@ -895,6 +874,34 @@ h2.accomodationTitle {
   text-align: center;
   font-size: 25px;
 }
+
+
+#popular {
+  padding-bottom: 20px;
+  margin-top: 0;
+}
+
+.backgroundGrid {
+ margin: 20px;
+ border-radius: 0%;
+}
+
+.popularTitle i {
+  padding: 20px 50px;
+}
+
+.contentPopular {
+  height: 200px;
+  width: 500px;
+}
+
+
+#activites > h2 {
+  font-size: 20px;
+  margin: 35px 0;
+  padding: 0 1.5em;
+}
+
 
 #activites {
   padding-top: 0;
