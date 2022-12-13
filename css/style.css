@@ -556,10 +556,19 @@ footer > div > ul {
       display: none;
   }
 
-  .header nav li {
-    margin-right: 0;
-
+  #header {
+    width: 100%;
   }
+
+  .navbar nav li {
+    margin-right: 0;
+  }
+
+  .navbar li a{
+    padding: 0 20px;
+    font-size: 25px;
+  }
+
 
   #logo{
       width: 150px;
@@ -571,11 +580,7 @@ footer > div > ul {
   }
 
 
-  .navbar li a{
-    padding: 0 10px;
-    font-size: 20px;
-  }
-
+  
   .filtres{
     padding: 0 15px;
     margin: 15px 10px;
