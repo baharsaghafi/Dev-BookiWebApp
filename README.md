@@ -1,6 +1,8 @@
 # Dev-BookiWebApp
-https://baharsaghafi.github.io/Dev-BookiWebApp/
-Booki website helps its users to find accommodation and activities in a town of their choosing. Accommodation can be filtered by things such as budget or atmosphere.
-HTML&CSS
+
+Booki website help users to find accommodation and activities in a town of their choosing. Accommodation can be filtered by things such as romantic places.
+HTML&CSS coding
 A new design, based on the principles of Material Design, has just been created by Loïc, a UI designer.
-It's a Bootcamp Project
+There would be two models made: one desktop and one mobile. The site must also be optimised for tablet devices. We are free to make the necessary changes for tablets. It is critical that no elements are cut and that the text is of sufficient size.
+There should be no use of a CSS framework (such as BootStrap or Tailwind CSS) or CSS preprocessor (such as Sass or Less).
+It's a Bootcamp Project by OpenSource
