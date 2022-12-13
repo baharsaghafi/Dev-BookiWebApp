@@ -588,9 +588,10 @@ footer > div > ul {
  }
  
  .sectionFiltres h4{
-     line-height: 4;
+     line-height: 1;
      margin-left: 15px;
  }
+
  .iconFiltres{
      width: 30px;
      height: 30px;
