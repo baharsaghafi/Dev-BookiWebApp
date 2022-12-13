@@ -17,7 +17,6 @@ a {
 }
 
 
-
 li {
   list-style: none;
 }
@@ -49,7 +48,6 @@ li {
   width: 150px;
   padding-top: 30px;
 }
-
 
 .navbar {
   display: flex;
@@ -222,7 +220,7 @@ form > input::placeholder{
 #accomodations{
   margin-top: 20px;
   width: 70%;
-  margin-right: 20px;
+  margin-right: 0px;
 }
 
 h2.accomodationTitle { 
@@ -344,7 +342,6 @@ h2.accomodationTitle {
   height: 150px;
 }
 
-
 .contentPopular:hover{
   transform: scale(1.05);
   transition: 0.3s;
@@ -378,15 +375,15 @@ h2.accomodationTitle {
 }
 
 .captionPopular {
-  padding: 0px 10px;
+  padding: 10px 2px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 50%;
+  width: 250px;
 }
 
 .captionPopular > p {
-  font-size: 15px;
+  font-size: 12px;
 }
 
 
@@ -543,7 +540,7 @@ footer > div > ul {
 /* --------------- TABLET VERSION RESPONSIVE --------------*/
 
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
  
   body{
       margin: 0;
