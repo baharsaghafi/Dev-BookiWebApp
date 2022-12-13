@@ -570,7 +570,7 @@ footer > div > ul {
   }
 
 
-  #logo{
+  #logo {
       width: 150px;
   }
  
@@ -589,7 +589,7 @@ footer > div > ul {
 
  .filtres p{
      padding: 3px;
-     font-size: 13px;
+     font-size: 15px;
  }
  
  .sectionFiltres h4{
@@ -619,7 +619,7 @@ footer > div > ul {
 
 #accomodations,
 #popular{
-  width: 105%;
+  width: 96%;
 }
 
 
