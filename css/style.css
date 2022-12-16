@@ -923,7 +923,7 @@ form > input {
 }
 
 .parag {
-  margin: 10px;
+  margin-left: 20px;
   font-size: 25px;
 }
 
@@ -948,7 +948,7 @@ form > input {
 
 
 #accomodations {
-  margin: 10px;
+  margin: 5px;
   order: 2;
   background-color: white;
 }
