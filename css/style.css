@@ -1003,6 +1003,14 @@ h2.accomodationTitle {
   width: 600px;
 }
 
+.captionPopular b {
+  font-size: 25px;
+}
+
+.captionPopular p {
+  font-size: 20px;
+}
+
 
 #activites > h2 {
   font-size: 25px;
@@ -1060,8 +1068,8 @@ footer {
   margin-top: 25px;
   width: 680px;
   height: 420px;
-
 }
+
 .about,
 .ourAcc{
   margin-right: 0;
